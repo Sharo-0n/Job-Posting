@@ -1,0 +1,33 @@
+// Place all the styles related to the jobs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  font-family: 'Montserrat', sans-serif;
+  //background-image: url("https://cdn.shutterstock.com/shutterstock/videos/7888090/thumb/1.jpg");
+}
+h1{
+  text-align: center;
+  color:#B4CDCD
+}
+
+.formation{
+  background-color:#B4CDCD;
+  margin: 10%;
+  margin-top: 0%;
+  color: white;
+  border-radius: 25px;
+}
+
+#title{
+  padding: 2%;
+}
+
+#desc{
+  padding: 2%;
+}
+
+#submit{
+  padding: 2%;
+  background-color: #B4CDCD;
+
+}

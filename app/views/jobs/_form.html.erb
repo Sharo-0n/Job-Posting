@@ -1,0 +1,24 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+</head>
+<h1>Add a job</h1>
+<%= form_for @job do |f| %>
+<div class="formation">
+
+  <div id="title">
+    <%= f.label :title %>
+    <div><%= f.text_field :title, size:'110' %></div>
+  </div>
+
+  <div id="desc">
+    <%= f.label :description %>
+    <div>
+      <%= f.text_area :description, size: '110' %>
+    </div>
+  </div>
+
+  <div id="submit">
+    <%= f.submit %>
+  </div>
+</div>
+<% end %>
